@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function AddressesPage(){return <main className="demo-page"><span className="eyebrow">YOUR ACCOUNT</span><h1 className="demo-page-heading">Saved addresses.</h1><article className="demo-address"><strong>Home · Demo address</strong><p>Guest Customer<br/>42, Garden Road, Bengaluru, Karnataka 560001</p><Link className="button button-outline" href="/checkout">Use at checkout</Link></article><Link href="/account" className="continue-link">Back to account</Link></main>}
